@@ -1,0 +1,10 @@
+click
+requests
+tqdm
+pyspng 
+ninja 
+imageio-ffmpeg==0.4.3 
+psutil 
+scipy
+torch==1.7.1
+torchvision==0.8.2
