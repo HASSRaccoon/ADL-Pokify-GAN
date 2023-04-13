@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# training-results or dataset (large files)
+datasets/
+training-runs/
