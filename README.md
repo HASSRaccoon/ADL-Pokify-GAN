@@ -3,9 +3,9 @@
 ![Image](./imgs/ganina.png)
 The proposed Generative Adversarial Networks (GAN) is a conditional Generative Adversarial Networks (cGAN) based on CycleGAN. The main difference is that we will be passing the labels such that the discriminator can compare the generated pokemon with a real pokemon that belongs to the same type of animal.
 
-## Evaluation
+We have also used StyleGAN2 as a baseline to compare with the GAN that we proposed. The following image is the results of the generated images.
 
-'' Add in the evaluation result here ''
+![Image](./imgs/comparison.png)
 
 ## Getting Started
 
@@ -44,3 +44,5 @@ Refer to respective Jupyter Notebook file. `StyleGAN.ipynb` and `CycleGAN.ipynb`
 Karras, T., Aittala, M., Hellsten, J., Laine, S., Lehtinen, J., & Aila, T. (2020). Training Generative Adversarial Networks with Limited Data. Proc. NeurIPS. Available at: https://github.com/NVlabs/stylegan2-ada-pytorch.
 
 Zhu, J.-Y., Park, T., Isola, P., & Efros, A. A. (2017). Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks. Computer Vision (ICCV), 2017 IEEE International Conference On. Available at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+
+PokeAPI, The RESTful Pokémon API. Available at: https://github.com/PokeAPI/pokeapi
